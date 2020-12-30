@@ -1,0 +1,51 @@
+#buttonContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: .5em;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+#content {
+    display: grid;
+    width:30em;
+    height: 30em;
+    background-color: black;
+    border-style: solid;
+    margin:auto;
+    grid-template-rows: 1fr 3fr;
+    border-radius: 5%;
+    
+}
+
+#textArea {
+    font-size: 5.5em;
+    text-align:right;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: none;
+}
+
+.operations {
+    background-color: #DAA520;
+    font-style: bold;
+}
+
+html {
+    font-family: monospace;
+}
+
+#equals {
+    background-color: #DAA520;
+    font-style: bold;
+}
+
+button {
+    margin: 2px;
+    font-size: 1.5em;
+    border-radius: 5%;
+    border: none;
+}
+
